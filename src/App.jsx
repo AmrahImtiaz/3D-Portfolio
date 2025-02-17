@@ -11,6 +11,9 @@ const App = () => {
      <div className="icon bg-transparent text-white w-34 h-34 rounded-full grid 
                   text-4xl border border-white 
                   absolute -right-12 "></div>
+    <div className="icon bg-transparent text-white w-34 h-34 rounded-full grid 
+                  text-4xl border border-white 
+                  absolute -bottom-20 -left-2 "></div>
         <div className="absolute top-1/2 right-0 transform -translate-y-1/2 w-[400px]
          h-[400px] opacity-10 grid-pattern"></div> 
          <div className="absolute top-1/2 right-0 transform w-[400px]
