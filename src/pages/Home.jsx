@@ -22,6 +22,7 @@ const Home = () => {
                   text-4xl border border-white 
                   absolute -bottom-20 right-24 "></div>
     <p className='text-white absolute bottom-17 right-24 text-xl'>MOTION DESIGNER</p>
+    <img src="assets/port.png" alt="" />
     <p className='text-black absolute bottom-27 bg-white w-100 text-center text-4xl '>SHAHZAD AHMED</p>
                   {/* Grid Pattern RIGHT */}
 <div className="absolute top-1/2 right-0 transform -translate-y-1/2 w-[400px]
@@ -30,6 +31,8 @@ const Home = () => {
          <div className="absolute top-1/2 right-0 transform w-[400px]
          h-[400px] opacity-10 grid-pattern -bottom-2 -left-1"></div> 
       </div>
+      
+
         </div>
         </>
   )
