@@ -1,4 +1,4 @@
-
+import port from '../assets/port.png';
 
 const Home = () => {
   return (
@@ -22,8 +22,9 @@ const Home = () => {
                   text-4xl border border-white 
                   absolute -bottom-20 right-24 "></div>
     <p className='text-white absolute bottom-17 right-24 text-xl'>MOTION DESIGNER</p>
-    <img src="assets/port.png" alt="" />
     <p className='text-black absolute bottom-27 bg-white w-100 text-center text-4xl '>SHAHZAD AHMED</p>
+    <img className='w-190 h-115' src={port} alt="hello" />
+
                   {/* Grid Pattern RIGHT */}
 <div className="absolute top-1/2 right-0 transform -translate-y-1/2 w-[400px]
          h-[400px] opacity-10 grid-pattern"></div> 
