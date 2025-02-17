@@ -1,4 +1,4 @@
-import Cursor from "./component/cursor"
+import Cursor from "./pages/Cursor"
 import About from "./pages/About"
 import Home from "./pages/Home"
 
