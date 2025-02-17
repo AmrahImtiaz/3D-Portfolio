@@ -1,18 +1,36 @@
-
 const About = () => {
-  return (
-    <div>
-        <h1 className="text-white text-5xl ml-19 font-black ">About Me : </h1>
-        <p className="text-white ml-32 mt-13 ">MY NAME IS SHAHZAD AHMED,
-         I AM <br />A 3D ARTIST,2D AND 3D ANIMATOR, <br /> MOTION ARTIST BASED IN PAKISTAN </p>
-         <p className="text-white ml-32 mt-6 ">WITH A PASSION FOR BEING CREATIVE, 
-        <br /> I LOVE EXPLORING DIFFERENT KINDS OF <br /> VISUAL STYLES THAT SPARKS JOY </p>
-         <p className="text-white ml-32 mt-6 "> I AM CONSTANTLY SEEKING OPPORTUNITIES  <br />
-         THAT WILL FURTHER ENHANCE <br /> MY EXPERIENCE AS AN ARTIST </p>
-         <div className="absolute top-1/2 right-0 transform -translate-y-1/2 w-[400px]
-         h-[400px] opacity-10 grid-pattern"></div> 
-    </div>
-  )
-}
+    return (
+      <div className="relative min-h-screen overflow-hidden">
+  
+        {/* Text Section */}
+        <div className="ml-8">
+          <h1 className="text-white text-5xl ml-8 mt-10 font-black">About Me:</h1>
+          <p className="text-white ml-17 mt-5 font-medium">
+            MY NAME IS SHAHZAD AHMED, I AM <br />
+            A 3D ARTIST, 2D AND 3D ANIMATOR, <br />
+            MOTION ARTIST BASED IN PAKISTAN
+          </p>
+          <p className="text-white ml-17 mt-6 font-medium">
+            WITH A PASSION FOR BEING CREATIVE, <br />
+            I LOVE EXPLORING DIFFERENT KINDS OF <br />
+            VISUAL STYLES THAT SPARK JOY
+          </p>
+          <p className="text-white ml-17 mt-6 font-medium">
+            I AM CONSTANTLY SEEKING OPPORTUNITIES <br />
+            THAT WILL FURTHER ENHANCE <br />
+            MY EXPERIENCE AS AN ARTIST
+          </p>
+        </div>
+  
+        {/* Grid Pattern Section */}
+        <div className="absolute top-10 -left-20 w-[400px] h-[400px] opacity-10 grid-pattern"></div>
+        <h1 className="text-white ml-17 mt-6 font-bold text-3xl">CONTACT</h1>
+        <p className="text-white ml-17 mt-6 font-medium">skhshehzad@gmail.com</p>
+        <p className="text-white ml-17 mt-6 font-medium">+92 3412169559</p>
 
-export default About
+      </div>
+    );
+  }
+  
+  export default About;
+  
