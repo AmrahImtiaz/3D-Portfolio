@@ -11,7 +11,7 @@ const App = () => {
     <Cursor/>
     <Home/>
     <About/>
-    <Showreel/>
+    {/* <Showreel/> */}
     <Work/>
     </>
   )
