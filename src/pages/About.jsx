@@ -23,10 +23,10 @@ const About = () => {
         </div>
   
         {/* Grid Pattern Section */}
-        <div className="absolute top-10 -left-20 w-[400px] h-[400px] opacity-10 grid-pattern"></div>
-        <h1 className="text-white ml-17 mt-6 font-bold text-3xl">CONTACT</h1>
-        <p className="text-white ml-17 mt-6 font-medium">skhshehzad@gmail.com</p>
-        <p className="text-white ml-17 mt-6 font-medium">+92 3412169559</p>
+        <div className="absolute top-10 right-20 w-[400px] h-[400px] opacity-10 grid-pattern"></div>
+        <h1 className="text-white ml-17 mt-6 font-bold text-3xl absolute right-53 top-92 ">CONTACT</h1>
+        <p className="text-white ml-17 mt-6 font-medium absolute right-53 top-105">skhshehzad@gmail.com</p>
+        <p className="text-white ml-17 mt-6 font-medium absolute right-53 top-110">+92 3412169559</p>
 
       </div>
     );
