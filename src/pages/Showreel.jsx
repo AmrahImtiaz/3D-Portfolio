@@ -1,6 +1,6 @@
 // import { useEffect, useRef } from 'react';
 
-const showreel = () => {
+const Showreel = () => {
   // const videoRef = useRef(null);
 
   // const checkMedia = () => {
@@ -47,4 +47,4 @@ const showreel = () => {
   );
 }
 
-export default showreel
+export default Showreel
