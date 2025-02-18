@@ -22,6 +22,7 @@ const Home = () => {
                   text-4xl border border-white 
                   absolute -bottom-20 right-24 "></div>
     <p className='text-white absolute bottom-17 right-24 text-xl'>MOTION DESIGNER</p>
+    <img src="assets/port.png" alt="" />
     <p className='text-black absolute bottom-27 bg-white w-100 text-center text-4xl '>SHAHZAD AHMED</p>
     <img className='sm:w-140 sm:h-105 md:w-190 md:h-115 ' src={port} alt="hello" />
 
