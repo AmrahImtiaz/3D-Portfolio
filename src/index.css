@@ -50,3 +50,8 @@ body{
 .animate-autoRun {
   animation: autoRun 20s linear infinite;
 }
+
+footer {
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.1); /* Adjust for stronger transparency */
+}

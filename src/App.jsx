@@ -2,7 +2,8 @@ import Cursor from "./pages/Cursor"
 import About from "./pages/About"
 import Home from "./pages/Home"
 import Work from "./pages/Work"
-import Showreel from "./pages/showreel"
+import Showreel from "./pages/Showreel"
+import Footer from "./pages/Footer"
 
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
     <About/>
     <Showreel/>
     <Work/>
+    <Footer />
     </>
   )
 }
