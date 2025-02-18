@@ -71,7 +71,7 @@ const Work = () => {
             </div>
           </section>
           <div className="flex justify-center mt-10">
-            <button className="bg-white text-4xl rounded-lg px-6 py-2">
+            <button className="bg-white text-4xl rounded-lg px-6 py-2 ">
               MORE
             </button>
           </div>
