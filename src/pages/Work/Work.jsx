@@ -28,7 +28,7 @@ const Work = () => {
           <div className={styles.grid}>
             {/* Gallery Items */}
             {[
-              { src: 'https://i.pinimg.com/736x/22/76/e8/2276e8e7d7960c72e1cca7a18525c064.jpg', title: "Smart Watch" },
+              { src: 'https://i.pinimg.com/736x/27/31/3f/27313f82dff0a14d8ff844ca1c035b06.jpg', title: "Smart Watch" },
               { src: "https://assets.codepen.io/1159990/camera-film.jpg", title: "Camera Film" },
               { src: "https://assets.codepen.io/1159990/coffee.jpg", title: "Coffee" },
               { src: "https://assets.codepen.io/1159990/phone.jpg", title: "Phone" },
