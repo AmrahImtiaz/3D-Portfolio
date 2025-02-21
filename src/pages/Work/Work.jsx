@@ -13,11 +13,11 @@ import hamzarashid from '../../assets/img/hamzarashid.png';
 import motion2dVideo1 from '../../assets/img/TARBIYAT.mp4';
 import motion2dVideo2 from '../../assets/img/IAM.mp4';
 import motion2dVideo3 from '../../assets/img/FLIX.mp4';
-import motion2dVideo4 from '../../assets/img/PrintsPak.mp4';
+import motion2dVideo4 from '../../assets/img/PrintPak.mp4';
 
 
 // 3D MOTION GRAPHICS
-import motion3dVideo1 from '../../assets/img/Inspector.mp4';
+
 import motion3dVideo2 from '../../assets/img/Lunar Eye.mp4';
 import motion3dVideo3 from '../../assets/img/Feras.mp4';
 
@@ -38,8 +38,7 @@ const projects = [
   { src: motion2dVideo2, title: "2D Motion 2", category: "2D Motion Graphic", type: "video" },
   { src: motion2dVideo3, title: "2D Motion 3", category: "2D Motion Graphic", type: "video" },
   { src: motion2dVideo4, title: "2D Motion 4", category: "2D Motion Graphic", type: "video" },
-  { src: motion3dVideo1, title: "3D Motion 1", category: "3D Motion Graphic", type: "video" },
-  { src: motion3dVideo2, title: "3D Motion 2", category: "3D Motion Graphic", type: "video" },
+
   { src: motion3dVideo3, title: "3D Motion 3", category: "3D Motion Graphic", type: "video" },
   { src: waqarsalon, title: "Waqar Salon", category: "Posts", type: "image" },
   { src: JummatulWida, title: "Jummatul Wida", category: "Posts", type: "image" },
