@@ -1,9 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Raleway&family=Rubik&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+  font-family:'Organetto' ;
+  src: url(./assets/fonts/Fontspring-DEMO-organetto-regular.otf);
+}
+
 @import "tailwindcss";
 
 body{
   background-color: #161616;
-  font-family: 'Raleway', Helvetica,sans-serif;
+  font-family: 'Organetto';
 }
 
 @layer utilities {

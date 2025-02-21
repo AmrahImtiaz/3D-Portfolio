@@ -1,9 +1,8 @@
+import React from 'react'
 
 const Headsup = () => {
   return (
-    <div>
-        <img src="" alt="" />
-    </div>
+    <div>Headsup</div>
   )
 }
 
