@@ -37,14 +37,14 @@ const Showreel = () => {
 
   return (
     <>
-    <h1 className='text-white text-7xl text-center font-bold'>3D ANIMATION</h1>
+    <h1 className='text-white md:text-7xl sm:text-xl text-center font-bold'>3D ANIMATION</h1>
     <video
       muted
       ref={videoRef}
       width="1920"
       height="1080"
       controls
-      className="mx-auto mt-8 rounded-lg"
+      className="mx-auto mt-8 pr-7 pl-7"
     >
       <source src={videoFile} type="video/mp4" />
     </video>

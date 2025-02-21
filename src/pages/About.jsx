@@ -25,8 +25,8 @@ const About = () => {
       <div className="absolute top-10 right-20 w-[400px] h-[400px] opacity-10 grid-pattern hidden sm:block"></div>
       <div className="sm:absolute sm:right-20 sm:top-[370px] mt-10 ml-8 sm:ml-0">
         <h1 className="text-white text-3xl font-bold sm:p-10">CONTACT</h1>
-        <p className="text-white font-medium">skhshehzad@gmail.com</p>
-        <p className="text-white font-medium">+92 3412169559</p>
+        <p className="text-white font-medium font-serif">skhshehzad@gmail.com</p>
+        <p className="text-white font-medium font-serif">+92 3412169559</p>
       </div>
     </div>
   );

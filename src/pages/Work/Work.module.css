@@ -187,3 +187,18 @@ video {
   height: auto;
   border-radius: 8px;
 }
+
+.img-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.img-container img,
+.img-container video {
+  transition: transform 0.3s ease;
+}
+
+.img-container:hover img,
+.img-container:hover video {
+  transform: scale(1.1);
+}

@@ -15,9 +15,7 @@ import motion2dVideo2 from '../../assets/img/IAM.mp4';
 import motion2dVideo3 from '../../assets/img/FLIX.mp4';
 import motion2dVideo4 from '../../assets/img/PrintPak.mp4';
 
-
 // 3D MOTION GRAPHICS
-
 import motion3dVideo2 from '../../assets/img/Lunar Eye.mp4';
 import motion3dVideo3 from '../../assets/img/Feras.mp4';
 
@@ -25,7 +23,6 @@ import motion3dVideo3 from '../../assets/img/Feras.mp4';
 import waqarsalon from '../../assets/img/waqarsalon-post.jpg';
 import JummatulWida from '../../assets/img/09-Jummatul Wida.jpg';
 import Comingsoon from '../../assets/img/Coming Soon POST Design.jpg';
-
 
 const projects = [
   { src: shanstall2, title: "Smart Watch", category: "3D Set", type: "image" },
@@ -38,7 +35,7 @@ const projects = [
   { src: motion2dVideo2, title: "2D Motion 2", category: "2D Motion Graphic", type: "video" },
   { src: motion2dVideo3, title: "2D Motion 3", category: "2D Motion Graphic", type: "video" },
   { src: motion2dVideo4, title: "2D Motion 4", category: "2D Motion Graphic", type: "video" },
-
+  { src: motion3dVideo2, title: "3D Motion 3", category: "3D Motion Graphic", type: "video" },
   { src: motion3dVideo3, title: "3D Motion 3", category: "3D Motion Graphic", type: "video" },
   { src: waqarsalon, title: "Waqar Salon", category: "Posts", type: "image" },
   { src: JummatulWida, title: "Jummatul Wida", category: "Posts", type: "image" },
@@ -64,14 +61,16 @@ const Work = () => {
 
   return (
     <>
-      <h1 className='text-5xl text-white font-bold text-center mb-10 mt-10'>3D SETS</h1>
+      <h1 className='text-3xl md:text-5xl text-white font-bold text-center mb-6 mt-6 md:mb-10 md:mt-10'>3D SETS</h1>
       
       {/* Filter Buttons */}
-      <div className='flex justify-center space-x-4 mb-10'>
+      <div className='flex flex-wrap justify-center gap-2 md:gap-4 mb-6 md:mb-10 px-4'>
         {["All", "3D Set", "2D Motion Graphic", "3D Motion Graphic", "Posts"].map(category => (
           <button
             key={category}
-            className={`px-4 py-2 rounded-lg text-white ${filter === category ? 'bg-red-300' : 'bg-gray-700'}`}
+            className={`px-3 py-1 md:px-4 md:py-2 rounded-lg text-sm md:text-base text-white ${
+              filter === category ? 'bg-red-300' : 'bg-gray-700'
+            }`}
             onClick={() => setFilter(category)}
           >
             {category}
@@ -82,14 +81,14 @@ const Work = () => {
       {/* Gallery Section */}
       <section className={styles.gallery}>
         <div className={styles.container}>
-          <div className={styles.grid}>
+          <div className={`${styles.grid} grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4`}>
             {filteredProjects.map((item, index) => (
-              <div key={index} className={`${styles['column-xs-12']} ${index < 3 ? styles['column-md-4'] : index < 5 ? styles['column-md-6'] : styles['column-xs-12']}`}>
+              <div key={index} className="w-full">
                 <figure className={styles['img-container']}>
                   {item.type === "image" ? (
-                    <img src={item.src} alt={item.title} />
+                    <img src={item.src} alt={item.title} className="w-full h-auto" />
                   ) : (
-                    <video controls autoPlay loop muted>
+                    <video controls autoPlay loop muted className="w-full h-auto">
                       <source src={item.src} type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
@@ -110,8 +109,10 @@ const Work = () => {
       </section>
 
       {/* Centered MORE Button */}
-      <div className="flex justify-center mt-10">
-        <button className='font-bold text-2xl rounded-full bg-white text-center px-6 py-3'>MORE</button>
+      <div className="flex justify-center mt-6 md:mt-10">
+        <button className='font-bold text-lg md:text-2xl rounded-full bg-white text-center px-4 py-2 md:px-6 md:py-3'>
+          MORE
+        </button>
       </div>
     </>
   );
